@@ -14,3 +14,14 @@ print("Division"+ str(Division))
 
 Cube=float(First_number)**float(Second_number)
 print("Cube"+ str(Cube))
+
+x=int(input("Please input a number: "))
+y=int(input("Please input a number: "))
+print(x-y)
+print(x+y)
+print(x*y)
+print(x**y)
+if y==0:
+   print("Please input a nonzero number")
+else:
+    print(x/y)
